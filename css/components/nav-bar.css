@@ -1,0 +1,44 @@
+.nav {
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   padding: 20px 50px;
+   box-sizing: border-box;
+   border-top: 1px solid rgba(0, 0, 0, 0.1);
+   background-color: #f9f9fa;
+}
+
+.nav__list {
+   display: flex;
+   justify-content: space-between;
+}
+
+.nav__link {
+   position: relative;
+   color: #2e363e;
+}
+
+.nav__chats-notification {
+   display: flex;
+   position: absolute;
+   justify-content: center;
+   align-items: center;
+   width: 25px;
+   height: 25px;
+   border-radius: 50%;
+   font-weight: 600;
+   bottom: 15px;
+   left: 20px;
+   color: white;
+   background-color: tomato;
+}
+
+.nav__find-notification {
+   position: absolute;
+   width: 5px;
+   height: 5px;
+   border-radius: 50%;
+   background-color: tomato;
+   bottom: 25px;
+   left: 30px;
+}
