@@ -12,5 +12,26 @@
 }
 
 .screen-header__icons span {
+  position: relative;
   margin-left: 25px;
+}
+
+.screen-header__setting-notification {
+  position: absolute;
+  bottom: 20px;
+  left: 23px;
+  animation: notificationAnimation 2s ease-in-out infinite;
+}
+
+@keyframes rotateGear {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header__icons .fa-gear:hover {
+  animation: rotateGear 2s linear infinite;
 }
